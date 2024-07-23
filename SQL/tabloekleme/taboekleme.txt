@@ -1,0 +1,16 @@
+Customers,Cıtıes,Dıtrıct diye 3 tane tablomuz olsun.
+
+SORU:CUSTOMERS isimli bir veritabanı oluşturunuz ve bu içerisindeki tabloları gösteren management studioda yaz
+
+
+DataBases dan new db oluşturduk :"CUSTOMERS"
+Table dan sırasıyla new table yapıp tabloları oluşturduk.
+
+*ID kısmında identityi yes yapıp primary key olarak seçtik.
+
+*new query den sorgu yazıyoruz yazdığımız sorgular 
+SELECT *FROM CITIES
+SELECT *FROM DISTRICTS
+SELECT *FROM CUSTOMERS
+
+sırasıyla tablolarımızın içeriğini gösterir.
