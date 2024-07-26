@@ -1,0 +1,9 @@
+Exceldeki Customers dosyasının kayıtları tablolara kopyala yapıştır olarak ekleme :
+
+
+istenilen tablonun üzerinden sağ tık ile edit top 200 rows açıyoruz.Id kısmı otomatik artan olacağı için sql yazısı yerinden TOP(200) ID kısmını kaldırdık.
+o şekilde çalıştırdığımız tabloya excelde cpy yaptıgımız kısmı pasteledik.
+
+sql query de sorguyla getirdik.
+
+

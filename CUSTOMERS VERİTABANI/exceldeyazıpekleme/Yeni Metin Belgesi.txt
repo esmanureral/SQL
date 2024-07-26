@@ -1,0 +1,21 @@
+TABLOLARA EXCEL FORMULU YAZARK EKLEME
+
+Exceldeki City tablosunun ilk satırına formulu yazdık
+="INSERT INTO CITIES(CITY) VALUES('"&[@CITY]&"')"
+
+sonra server da tablo içini sildik
+TRUNCATE TABLE CITIES
+
+excelde yazdığımız formulu copy paste yaptık
+içini görmek içinde
+SELECT *FROM CITIES
+
+
+
+DISTRICTS İÇİN:
+
+="INSERT INTO DISTRICTS(CITYID,DISTRICT)VALUES("&[@CITYID]&",'"&[@DISTRICT]&"')"
+
+CUSTOMERS İÇİN:
+
+="INSERT INTO CUSTOMERS (CUSTOMERNAME,TCNUMBER,GENDER,EMAIL,BIRTHDATE,CITYID,DISTRICTID,TELNR1,TELNR2) VALUES ('"&B2&"','"&C2&"','"&D2&"','"&E2&"','"&F2&"',"&G2&","&H2&",'"&I2&"','"&J2&"')"
