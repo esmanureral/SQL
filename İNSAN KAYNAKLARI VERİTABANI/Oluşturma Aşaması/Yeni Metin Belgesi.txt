@@ -1,0 +1,37 @@
+Databases>newdatabases>HR isimli database oluşturduk
+HR>Tables>new> tablo sütunları girildi sonra kaydettik 
+
+
+--------------------------KOD İLE OLUŞTURMA------------------------------------------
+CREATE DATABASE HR --HR isimli veritabanı oluşturdu.
+
+CREATE TABLE DEPARTMENT(
+ID INT IDENTITY (1,1) PRIMARY KEY,
+DEPARTMENT VARCHAR(50))
+
+CREATE TABLE POSITION 
+(ID INT IDENTITY (1,1) PRIMARY KEY,
+ DEPARTMENT VARCHAR(100))
+
+ CREATE TABLE PERSON
+(ID INT IDENTITY (1,1) PRIMARY KEY,
+ CODE VARCHAR(10),
+ TCNUMBER VARCHAR(11),
+ NAME_ VARCHAR(50),
+ GENDER VARCHAR(1),
+ BIRTHDATE DATE,
+ INDATE DATE,
+ OUTDATE DATE,
+ DEPARTMENTID INT,
+ POSITIONID INT,
+ PARENTPOSITIONID INT,
+ MANAGERID INT,
+ TELNR VARCHAR(15),
+ SALARY FLOAT)
+
+
+--------------------------COPY PASTE İÇERİK ------------------------------------------
+excelde istenilen kısım kopyalanır id alınmaz
+table>departmen>edit top 200> SQL kutucuğuna tıkla> top(200) ıd sil>excelde kopyaladıklarını yapıştır.
+
+
